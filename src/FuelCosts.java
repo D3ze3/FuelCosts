@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class FuelCosts {
     public static void main(String[] args) {
@@ -41,7 +42,7 @@ public class FuelCosts {
         double maxDistance = gallons * mpg;
 
         // Display results
-        System.out.printf("The cost to drive 100 miles: $%.2%n", costPer100Miles);
+        System.out.printf("The cost to drive 100 miles: $%.2f%n", costPer100Miles);
         System.out.printf("The car can travel %.2f miles with a full tank.%n", maxDistance);
 
 
